@@ -26,7 +26,14 @@
   "require": {
     "php": ">=7.2",
     "workerman/webman-framework": "^1.5.0",
-    "monolog/monolog": "^2.0"
+    "monolog/monolog": "^2.0",
+    "illuminate/database": "^8.0",
+    "symfony/dotenv": "^5.4",
+    "illuminate/queue": "^8.83",
+    "illuminate/log": "^8.83",
+    "illuminate/validation": "^8.83",
+    "illuminate/pagination": "^8.83",
+    "illuminate/cache": "^8.83"
   },
   "suggest": {
     "ext-event": "For better performance. "
